@@ -2,7 +2,22 @@ module gloo-controller-example
 
 go 1.13
 
-require github.com/solo-io/gloo v1.2.15 // indirect
+require (
+	github.com/cratonica/2goarray v0.0.0-20190331194516-514510793eaa // indirect
+	github.com/docker/docker v1.13.1 // indirect
+	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f // indirect
+	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
+	github.com/go-ldap/ldap v3.0.2+incompatible // indirect
+	github.com/mitchellh/reflectwalk v1.0.1 // indirect
+	github.com/solo-io/gloo v1.3.1
+	github.com/solo-io/go-utils v0.11.7
+	github.com/solo-io/solo-kit v0.12.1
+	golang.org/x/crypto v0.0.0-20200115085410-6d4e4cb37c7d // indirect
+	golang.org/x/sys v0.0.0-20200113162924-86b910548bc1 // indirect
+	golang.org/x/tools v0.0.0-20200115165105-de0b1760071a // indirect
+	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
+	k8s.io/apimachinery v0.0.0
+)
 
 replace (
 	github.com/docker/docker => github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309
